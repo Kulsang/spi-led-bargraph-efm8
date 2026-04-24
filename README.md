@@ -26,18 +26,22 @@ The system controls LED patterns using shift registers and demonstrates embedded
 - Communication Protocol: SPI
 
 ---
-
 ## Project Structure
 
 ```text
 spi-led-bargraph-efm8/
-├── main.c
-├── main.h
-├── spi.c
-├── spi.h
-├── bar_control.c
-├── bar_control.h
-└── project_EFM.pdf
+│
+├── src/
+│   ├── main.c
+│   ├── spi.c
+│   ├── bar_control.c
+│
+├── include/
+│   ├── spi.h
+│   ├── main.h
+│
+├── docs/
+│   └── report.pdf
 ```
 
 ## Working Principle

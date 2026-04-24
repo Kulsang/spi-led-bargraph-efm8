@@ -43,7 +43,7 @@ spi-led-bargraph-efm8/
 ├── docs/
 │   └── report.pdf
 ```
-
+---
 ## Working Principle
 - The EFM8 microcontroller acts as SPI master.
 - Data is transmitted via MOSI to the shift register.
